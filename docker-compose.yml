@@ -1,0 +1,10 @@
+version: '1.0'
+
+services:
+  app: 
+    container_name: docker-react-vite-container
+    image: docker-react-vite-image
+    build: 
+      context: .
+    ports:
+      - 80:80
